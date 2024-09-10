@@ -1,0 +1,23 @@
+{
+    "name": "ruri-atm",
+    "version": "1.0.1",
+    "description": "The Ruri ATM",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha test/*.js",
+      "start": "node index.js"
+    },
+    "keywords": [
+      "ruri-atm"
+    ],
+    "author": "Rendy YS",
+    "license": "MIT",
+    "type": "module",
+    "devDependencies": {
+      "sinon": "^18.0.0"
+    },
+    "dependencies": {
+      "mocha": "^10.2.0"
+    }
+  }
+  
